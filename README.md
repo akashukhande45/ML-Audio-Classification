@@ -63,7 +63,7 @@ http://127.0.0.1:5000/predict
 
 ## 📊 Example Output
 
-```json
+
 {
   "prediction": "dog",
   "learning_path": [
@@ -77,3 +77,12 @@ http://127.0.0.1:5000/predict
 
 ## Model Accuracy
 - Accuracy: ~48%
+
+## Note
+
+The model file (model.pkl) is not uploaded due to GitHub file size limitations.
+
+To run the project:
+1. Run `prepare_dataset.py`
+2. Run `train.py` to generate `model.pkl`
+3. Then run `app.py`
